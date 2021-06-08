@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Expression.Interaction/3.0.40218": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Expression.Interactions.dll": {},
+          "lib/net46/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Expression.Interactions.dll": {},
+          "lib/net46/System.Windows.Interactivity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Expression.Interaction/3.0.40218": {
+      "sha512": "q05lv/bWH+zJYUpZw5Kap7oHsZZIxhYVokmhOvB5MkPRG9xGMTicuhrZ42ukxBYxSozWocToBHk+k9/IxOkSMg==",
+      "type": "package",
+      "path": "expression.interaction/3.0.40218",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "expression.interaction.3.0.40218.nupkg.sha512",
+        "expression.interaction.nuspec",
+        "lib/net45/Microsoft.Expression.Interactions.dll",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/net46/Microsoft.Expression.Interactions.dll",
+        "lib/net46/System.Windows.Interactivity.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Expression.Interaction >= 3.0.40218"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kamila\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kamila\\Desktop\\POiG\\MiniTC\\MiniTC.csproj",
+      "projectName": "MiniTC",
+      "projectPath": "C:\\Users\\Kamila\\Desktop\\POiG\\MiniTC\\MiniTC.csproj",
+      "packagesPath": "C:\\Users\\Kamila\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kamila\\Desktop\\POiG\\MiniTC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kamila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Expression.Interaction": {
+            "target": "Package",
+            "version": "[3.0.40218, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Expression.Interaction 3.0.40218” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v3.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "Expression.Interaction",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
